@@ -1,0 +1,7 @@
+# Primary Requirements
+
+python3.7
+numpy
+pandas
+scikit-learn
+tkinter

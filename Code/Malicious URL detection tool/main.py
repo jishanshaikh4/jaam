@@ -34,10 +34,11 @@ def getTkns(input):
 def trainer():
     global to_ret
     global txt
-
+	
+    # ONE TIME EXECUTION STARTS HERE
     csv= pd.read_csv("data.csv", error_bad_lines= False)
     data= pd.DataFrame(csv)
-    
+    ```
     data= np.array(data)
     random.shuffle(data)
     

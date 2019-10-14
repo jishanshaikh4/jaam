@@ -1,0 +1,18 @@
+Programming language: Python 3.x
+
+Required packages:
+
+- sklearn
+- pandas
+- numpy
+- random
+- time
+- tkinter
+
+How to install?
+
+For Linux:
+- pip install sklearn
+- pip install pandas
+- pip install numpy
+- pip install tkinter

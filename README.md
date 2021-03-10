@@ -1,6 +1,7 @@
 # JAAM
 
 [![Hits-of-Code](https://hitsofcode.com/github/jishanshaikh4/jaam)](https://hitsofcode.com/view/github/jishanshaikh4/jaam)
+[![CodeFactor](https://www.codefactor.io/repository/github/jishanshaikh4/jaam/badge)](https://www.codefactor.io/repository/github/jishanshaikh4/jaam)
 [![codecov](https://codecov.io/gh/jishanshaikh4/jaam/branch/master/graph/badge.svg?token=84B6WUY56E)](https://codecov.io/gh/jishanshaikh4/jaam)
 
 JAAM: Web Browser Security Framework. Accepted Minor Project for CSE-329 and CSE-319 at MANIT, Bhopal

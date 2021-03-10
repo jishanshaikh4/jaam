@@ -22,7 +22,7 @@ def getTkns(inputt):
 	 for i in tknsBySlash:
 		 tkns = str(i).split('-')
 		 tknsByDot = []
-		 for j in range(len(tkns)):
+		 for j in enumerate(tkns):
 			 tempTkns = tkns[j].split('.')
 			 tknsByDot = tknsByDot + tempTkns
 		 allTkns = allTkns + tkns + tknsByDot

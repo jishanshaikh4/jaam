@@ -16,13 +16,13 @@ boolean = False
 to_ret = []
 
 
-def getTkns(input):
-	 tknsBySlash = str(input.encode('utf-8')).split('/')
+def getTkns(inputt):
+	 tknsBySlash = str(inputt.encode('utf-8')).split('/')
 	 allTkns = []
 	 for i in tknsBySlash:
 		 tkns = str(i).split('-')
 		 tknsByDot = []
-		 for j in range(0, len(tkns)):
+		 for j in range(len(tkns)):
 			 tempTkns = tkns[j].split('.')
 			 tknsByDot = tknsByDot + tempTkns
 		 allTkns = allTkns + tkns + tknsByDot
@@ -74,7 +74,6 @@ def trainer():
     to_ret.append(lgs_tf)
     return to_ret
 
-
 def callback():
     global boolean
     global to_ret
@@ -89,7 +88,7 @@ def callback():
     Choice = choice.get()
 	
     if Choice == "":
-        txt.insert(0.0,"Please choose any one of the two options.\n")
+        txt.insert(0.0, "Please choose any one of the two options.\n")
         return
 
 
